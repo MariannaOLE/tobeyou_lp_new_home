@@ -1,10 +1,18 @@
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
 /* screen - home-1440-px */
 .home-1440-px {
   align-items: flex-start;
   background-color: #f0f1fc;
   display: flex;
   flex-direction: column;
-  height: 8487px;
+  height: 8200px;
   overflow: hidden;
   width: 100%;
 }
@@ -14,16 +22,21 @@
   display: flex;
   min-width: 100%;
   z-index: 6;
+  
 }
 
 .home-1440-px .overlap-group {
-  height: 840px;
+  display: flex;
+  height: 100vh;
   position: relative;
   width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+
 .home-1440-px .overlap-group-2 {
-  height: 840px;
+  height: 100vh;
   left: 0;
   position: absolute;
   top: 0;
@@ -32,7 +45,7 @@
 
 .home-1440-px .bkgrd-aqua {
   background-color: var(--turquoise-pearl);
-  height: 840px;
+  height: 100vh;
   left: 0;
   opacity: 0;
   position: absolute;
@@ -58,14 +71,16 @@ transform: scale(1);
 
 .home-1440-px .green-circle {
   background-color: var(--pear);
-  border-radius: 274px;
-  height: 548px;
-  width: 548px;
+  border-radius: 374px;
+  height: 648px;
+  width: 648px;
   flex-direction: column;    
   display: flex;    
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 208px;
-  margin-left: 620px;
+  z-index: auto;
   
 }
 
@@ -85,34 +100,36 @@ transform: scale(1);
 }
 
 .home-1440-px .group-shot {
-  align-items: flex-start;
   display: flex;
-  height: 543px;
   left: 0;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
-  padding: 0 29.7px;
   position: absolute;
-  top: 297px;
   width: 100%;
+  bottom: 0;
   justify-content: center;
 }
 
 .home-1440-px .overlap-group1 {
   height: 736px;
-  margin-top: -55px;
+  margin-top: -88px;
+  display: flex;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 80%;
   position: relative;
-  width: 1311px;
 }
 
 .home-1440-px .ravi-pose-01-1 {
   display: block;
-  height: 687px;
-  left: 951px;
+  left: 76%;
   opacity: 0;
   position: absolute;
-  top: 0;
+  top: 11%;
   transform: translate(25px, 0);
-  width: 360px;
+  width: 31%;
 }
 
 .home-1440-px .ravi-pose-01-1.bp1-animate-enter26 {
@@ -133,14 +150,13 @@ transform: translate(0,0);
 
 .home-1440-px .zhihao {
   display: block;
-  height: 639px;
-  left: 659px;
+  left: 52%;
   mix-blend-mode: multiply;
   opacity: 0;
   position: absolute;
-  top: 97px;
+  top: 23%;
   transform: translate(25px, 0);
-  width: 373px;
+  width: 31%;
 }
 
 .home-1440-px .zhihao.bp1-animate-enter27 {
@@ -161,14 +177,12 @@ transform: translate(0,0);
 
 .home-1440-px .aman {
   display: block;
-  height: 661px;
-  left: 0;
-  object-fit: cover;
+  left: -8%;
   opacity: 0;
   position: absolute;
-  top: 25px;
+  top: 11%;
   transform: translate(-25px, 0);
-  width: 615px;
+  width: 50%;
 }
 
 .home-1440-px .aman.bp1-animate-enter28 {
@@ -189,13 +203,12 @@ transform: translate(0,0);
 
 .home-1440-px .nadia {
   display: block;
-  height: 581px;
-  left: 380px;
+  left: 25%;
   opacity: 0;
   position: absolute;
-  top: 126px;
+  top: 199px;
   transform: translate(-25px, 0);
-  width: 466px;
+  width: 44%;
 }
 
 .home-1440-px .nadia.bp1-animate-enter29 {
@@ -219,10 +232,11 @@ transform: translate(0,0);
   height: 167px;
   opacity: 0;
   display: flex;
-  transform: translate(0, -25px);
   justify-content: center;
-  margin-top: 102px;
-  margin-left: 280px;
+  margin-top: 152px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .home-1440-px .titles.bp1-animate-enter30 {
@@ -272,13 +286,14 @@ transform: translate(0,0);
   box-shadow: 0px 4px 24px #005b6966;
   cursor: pointer;
   height: 64px;
-  left: 646px;
   opacity: 0;
-  position: absolute;
-  top: 704px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
   width: 174px;
+  margin-bottom: 40px;
 }
 
 .home-1440-px .button-play-now.bp1-animate-enter31 {
@@ -327,7 +342,7 @@ transform: translate(0,0);
   height: 24px;
   left: 48px;
   position: absolute;
-  top: 774px;
+  bottom: 40px;
   width: 168px;
 }
 
@@ -505,7 +520,7 @@ to{opacity: 1;
 
 .home-1440-px .white-border {
   border: 16px solid var(--white);
-  height: 840px;
+  height: 100vh;
   left: 0;
   position: absolute;
   top: 0;
@@ -548,7 +563,9 @@ transform: scale(1);
 
 .home-1440-px .x2nd-section {
   background-color: var(--governor-bay);
-  height: 800px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
   position: relative;
   width: 100%;
   z-index: 5;
@@ -634,6 +651,7 @@ transform: translate(0,0);
   top: -370px;
   transform: translate(0, -200px);
   width: 268px;
+ 
 }
 
 .home-1440-px .colunm-01.bp1-animate-enter20 {
@@ -778,16 +796,17 @@ transform: translate(0,0);
 
 .home-1440-px .stories-nadia {
   display: flex;
-  height: 840px;
+  justify-content: center;
   overflow: hidden;
   width: 100%;
   z-index: 7;
+  height: 100vh;
 }
 
 .home-1440-px .stories-nadia-1 {
   align-items: flex-start;
   display: flex;
-  height: 918.17px;
+ 
   margin-left: -28px;
   min-width: 100%;
 }
@@ -1706,6 +1725,51 @@ transform: translate(0,0);
   transform: scale(1.1);
 }
 
+#scroll-container {
+  height: 100px;
+  overflow: hidden;
+}
+
+#scroll-text {
+  height: 100%;
+  text-align: center;
+  
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateY(100%); }
+  to { -moz-transform: translateY(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+
 .home-1440-px .what-players-say {
   align-items: flex-start;
   display: flex;
@@ -2077,6 +2141,9 @@ transform: translate(0,0);
   top: 1239px;
   transform: translate(0, 25px);
   width: 957px;
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
 }
 
 .home-1440-px .media-feature.bp1-animate-enter18 {
@@ -2271,9 +2338,6 @@ transform: translate(0,0);
   top: 0;
   transform: translate(0, 25px);
   white-space: nowrap;
-  align-items: flex-start;
-  display: flex;
-  min-width: 100%;
   z-index: 1;
 }
 
@@ -3061,8 +3125,7 @@ transform: scale(1);
   width: 220px;
 }
 
-.home-375-px .aman-1 {
-  height: 378px;
+.home-375-px .aman-1 {m
   left: 52px;
   object-fit: cover;
   position: absolute;
@@ -8111,12 +8174,16 @@ transform: translate(0,0);
 .home-768-px .button-play-now-27:hover {
   transform: scale(1.1);
 }
+
+
+
+
 @media screen and (max-width: 767px) {
   .screen.home-768-px { 
-    display: none;
+   display: none
    }
   .screen.home-1440-px { 
-    display: none;
+   display: none;
    }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
