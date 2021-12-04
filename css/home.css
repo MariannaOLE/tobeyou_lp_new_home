@@ -1,18 +1,9 @@
-html, body {
-  height: 100%;
-}
-
-.full-height {
-  height: 100%;
-}
-
 /* screen - home-1440-px */
 .home-1440-px {
   align-items: flex-start;
   background-color: #f0f1fc;
   display: flex;
   flex-direction: column;
-  height: 8200px;
   overflow: hidden;
   width: 100%;
 }
@@ -563,7 +554,7 @@ transform: scale(1);
 
 .home-1440-px .x2nd-section {
   background-color: var(--governor-bay);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   position: relative;
@@ -796,44 +787,60 @@ transform: translate(0,0);
 
 .home-1440-px .stories-nadia {
   display: flex;
-  justify-content: center;
   overflow: hidden;
   width: 100%;
   z-index: 7;
-  height: 100vh;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
 }
+
+
 
 .home-1440-px .stories-nadia-1 {
-  align-items: flex-start;
   display: flex;
- 
-  margin-left: -28px;
+  height: 100vh;
   min-width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
+
+
+.home-1440-px .stories-1.bp1-animate-enter36 {
+  animation: bp1-animate-enter36-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+
+
 .home-1440-px .overlap-group1-2 {
-  height: 918px;
   position: relative;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-height: 100%;
 }
+
 
 .home-1440-px .bkgrd-1 {
   background-color: var(--purple-heart);
-  height: 840px;
-  left: 28px;
   position: absolute;
   top: 0;
   width: 100%;
+  min-height: 100vh;
 }
 
+
 .home-1440-px .side-characters {
-  height: 639px;
   left: 0;
-  opacity: 0;
   position: absolute;
-  top: 279px;
-  transform: translate(-25px, 0);
-  width: 764px;
+  width: 704px;
+  bottom: 0;
 }
 
 .home-1440-px .side-characters.bp1-animate-enter32 {
@@ -852,64 +859,57 @@ transform: translate(0,0);
 }
 
 .home-1440-px .overlap-group-5 {
-  height: 640px;
+  height: 628px;
   position: relative;
 }
 
 .home-1440-px .gavin {
-  height: 634px;
-  left: 179px;
+  left: 24%;
   object-fit: cover;
   position: absolute;
-  top: 0;
-  width: 323px;
+  width: 48%;
+  bottom: 0;
 }
 
 .home-1440-px .azlinhappy-1 {
-  height: 629px;
-  left: 0;
+  left: -2%;
   position: absolute;
-  top: 10px;
-  width: 300px;
+  width: 44%;
+  bottom: 0;
 }
 
+
 .home-1440-px .rahman-1 {
-  height: 593px;
-  left: 464px;
+  left: 72%;
   object-fit: cover;
   position: absolute;
-  top: 47px;
-  width: 300px;
+  width: 44%;
+  bottom: 0;
 }
 
 .home-1440-px .chloe-normal-1 {
-  height: 588px;
-  left: 324px;
+  left: 47%;
   position: absolute;
-  top: 24px;
-  width: 301px;
+  width: 46%;
+  bottom: 0;
 }
 
 .home-1440-px .cover {
   background-color: var(--purple-heart-2);
-  height: 620px;
-  left: 28px;
+  height: 656px;
   opacity: 0.5;
   position: absolute;
-  top: 1px;
   width: 736px;
+  bottom: 0;
 }
 
 .home-1440-px .nadia-profile {
-  display: block;
-  height: 679px;
-  left: 509px;
   object-fit: cover;
   opacity: 0;
   position: absolute;
-  top: 181px;
   transform: translate(0, 25px);
-  width: 460px;
+  width: 31%;
+  bottom: 0;
 }
 
 .home-1440-px .nadia-profile.bp1-animate-enter33 {
@@ -930,12 +930,13 @@ transform: translate(0,0);
 
 .home-1440-px .text-1 {
   height: 227px;
-  left: 954px;
   opacity: 0;
-  position: absolute;
   top: 357px;
   transform: translate(25px, 0);
   width: 400px;
+  align-self: flex-end;
+  margin-right: 135px;
+  margin-top: 120px;
 }
 
 .home-1440-px .text-1.bp1-animate-enter34 {
@@ -986,13 +987,12 @@ transform: translate(0,0);
   box-shadow: 0px 4px 24px #005b6966;
   cursor: pointer;
   height: 64px;
-  left: 646px;
   opacity: 0;
   position: absolute;
-  top: 704px;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
   width: 174px;
+  bottom: 80px;
 }
 
 .home-1440-px .button-play-now-2.bp1-animate-enter35 {
@@ -1015,38 +1015,27 @@ transform: translate(0,0);
 }
 
 .home-1440-px .stories-aman {
-  align-items: flex-end;
   background-color: var(--selective-yellow);
   display: flex;
-  height: 840px;
+  min-height: 100vh;
   overflow: hidden;
   width: 100%;
   z-index: 8;
+  display: flex;
+  overflow: hidden;
+  z-index: 7;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .home-1440-px .overlap-group4 {
-  height: 970px;
-  margin-bottom: -213.0px;
-  margin-left: 122px;
+  display: flex;
+  margin-bottom: -213px;
   position: relative;
-  width: 1395px;
-}
-
-.home-1440-px .stories-1 {
-  left: 74px;
-  letter-spacing: 14.40px;
-  line-height: 192.0px;
-  opacity: 0;
-  text-align: center;
-  top: 0;
-  transform: scale(0.9);
-  white-space: nowrap;
-}
-
-.home-1440-px .stories-1.bp1-animate-enter36 {
-  animation: bp1-animate-enter36-frames 1.00s ease-in-out 0.00s 1 normal forwards;
-  opacity: 0;
-  transform: scale(0.9);
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes bp1-animate-enter36-frames {
@@ -1059,13 +1048,10 @@ transform: scale(1);
 }
 
 .home-1440-px .side-characters-1 {
-  height: 789px;
-  left: 580px;
-  opacity: 0;
+  right: 0;
   position: absolute;
-  top: 181px;
-  transform: translate(25px, 0);
   width: 815px;
+  bottom: 0;
 }
 
 .home-1440-px .side-characters-1.bp1-animate-enter37 {
@@ -1097,61 +1083,51 @@ transform: translate(0,0);
 }
 
 .home-1440-px .sergeant-1 {
-  height: 748px;
-  left: 475px;
   object-fit: cover;
   position: absolute;
-  top: 0;
-  width: 340px;
+  width: 48%;
+  bottom: 0;
+  right: -8%;
 }
 
 .home-1440-px .lukman2 {
-  height: 748px;
-  left: 0;
   object-fit: cover;
   position: absolute;
-  top: 0;
-  width: 340px;
+  width: 48%;
+  bottom: 0;
 }
 
 .home-1440-px .jothi2-1 {
-  height: 748px;
-  left: 195px;
   object-fit: cover;
   position: absolute;
-  top: 26px;
-  width: 340px;
+  width: 46%;
+  bottom: 0;
+  right: 26%;
 }
 
 .home-1440-px .selinder1 {
-  height: 727px;
-  left: 340px;
   object-fit: cover;
   position: absolute;
-  top: 62px;
-  width: 330px;
+  width: 43%;
+  bottom: 0;
+  right: 9%;
 }
 
 .home-1440-px .cover-1 {
   background-color: var(--selective-yellow);
-  height: 592px;
-  left: 52px;
+  height: 792px;
   opacity: 0.5;
   position: absolute;
-  top: 16px;
-  width: 685px;
+  width: 900px;
+  top: -25px;
 }
 
 .home-1440-px .amanactive {
-  display: block;
-  height: 664px;
-  left: 231px;
   object-fit: cover;
   opacity: 0;
-  position: absolute;
-  top: 98px;
   transform: translate(0, 25px);
-  width: 696px;
+  width: 48%;
+  bottom: 0;
 }
 
 .home-1440-px .amanactive.bp1-animate-enter38 {
@@ -1171,13 +1147,10 @@ transform: translate(0,0);
 }
 
 .home-1440-px .text-2 {
-  height: 227px;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 246px;
-  transform: translate(-25px, 0);
-  width: 400px;
+    left: 122px;
+    opacity: 0;
+    position: absolute;
+    top: 429px;
 }
 
 .home-1440-px .text-2.bp1-animate-enter39 {
@@ -1229,10 +1202,9 @@ transform: translate(0,0);
   box-shadow: 0px 4px 24px #005b6966;
   cursor: pointer;
   height: 64px;
-  left: 524px;
   opacity: 0;
   position: absolute;
-  top: 621px;
+  top: 800px;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
   width: 174px;
@@ -1258,32 +1230,29 @@ transform: translate(0,0);
 }
 
 .home-1440-px .stories-ravi {
-  align-items: flex-end;
   background-color: var(--pear);
   display: flex;
-  height: 840px;
+  min-height: 100vh;
   overflow: hidden;
   width: 100%;
-  z-index: 9;
+  z-index: 8;
+  display: flex;
+  overflow: hidden;
+  z-index: 7;
+  flex-direction: row;
 }
 
 .home-1440-px .overlap-group5 {
-  height: 889px;
-  margin-bottom: -132.0px;
-  margin-left: -67px;
+  height: 628px;
   position: relative;
-  width: 1403px;
 }
 
-.home-1440-px .side-characters-2 {
-  height: 684px;
+/*.home-1440-px .side-characters-2 {
   left: 0;
-  opacity: 0;
   position: absolute;
-  top: 168px;
-  transform: translate(-25px, 0);
-  width: 752px;
-}
+  width: 704px;
+  bottom: 0;
+}*/
 
 .home-1440-px .side-characters-2.bp1-animate-enter41 {
   animation: bp1-animate-enter41-frames 1.00s ease-in-out 1.00s 1 normal forwards;
@@ -1301,16 +1270,26 @@ transform: translate(0,0);
 }
 
 .home-1440-px .over-container {
-  height: 685px;
+  height: 789px;
   position: relative;
+  bottom: 0;
 }
 
-.home-1440-px .chaaman-container {
+.home-1440-px .overlap-group-6-1 {
+  height: 789px;
+  left: -100px;
+  position: absolute;
+  top: 355px;
+  width: 815px;
+}
+
+
+/*.home-1440-px .chaaman-container {
   height: 685px;
   left: 0;
   position: absolute;
-  top: 0;
   width: 752px;
+  bottom: 0;
 }
 
 .home-1440-px .chaamanpapastern {
@@ -1323,12 +1302,11 @@ transform: translate(0,0);
 }
 
 .home-1440-px .chaamansergeant {
-  height: 659px;
-  left: 452px;
   object-fit: cover;
   position: absolute;
-  top: 0;
-  width: 300px;
+  width: 48%;
+  bottom: 0;
+  right: -8%;
 }
 
 .home-1440-px .chaamanjothi2hairflip {
@@ -1347,35 +1325,18 @@ transform: translate(0,0);
   position: absolute;
   top: 24px;
   width: 300px;
-}
+}*/
 
 .home-1440-px .cover-2 {
   background-color: var(--pear);
-  height: 580px;
-  left: 67px;
+  height: 792px;
   opacity: 0.5;
   position: absolute;
-  top: 10px;
-  width: 685px;
+  width: 900px;
+  top: 150px;
 }
 
-.home-1440-px .stories-2 {
-  left: 264px;
-  letter-spacing: 14.40px;
-  line-height: 192.0px;
-  opacity: 0;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  transform: scale(0.9);
-  white-space: nowrap;
-}
 
-.home-1440-px .stories-2.bp1-animate-enter42 {
-  animation: bp1-animate-enter42-frames 1.00s ease-in-out 0.00s 1 normal forwards;
-  opacity: 0;
-  transform: scale(0.9);
-}
 
 @keyframes bp1-animate-enter42-frames {
   from{opacity: 0;
@@ -1520,7 +1481,7 @@ transform: translate(0,0);
   align-items: flex-end;
   background-color: var(--bunting);
   display: flex;
-  height: 840px;
+  min-height: 100vh;
   overflow: hidden;
   width: 100%;
   z-index: 10;
@@ -1597,23 +1558,6 @@ transform: translate(0,0);
 }
 }
 
-.home-1440-px .stories-3 {
-  left: 74px;
-  letter-spacing: 14.40px;
-  line-height: 192.0px;
-  opacity: 0;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  transform: translate(0, -25px);
-  white-space: nowrap;
-}
-
-.home-1440-px .stories-3.bp1-animate-enter48 {
-  animation: bp1-animate-enter48-frames 1.00s ease-in-out 0.00s 1 normal forwards;
-  opacity: 0;
-  transform: translate(0, -25px);
-}
 
 @keyframes bp1-animate-enter48-frames {
   from{opacity: 0;
@@ -3125,7 +3069,7 @@ transform: scale(1);
   width: 220px;
 }
 
-.home-375-px .aman-1 {m
+.home-375-px .aman-1 {
   left: 52px;
   object-fit: cover;
   position: absolute;
