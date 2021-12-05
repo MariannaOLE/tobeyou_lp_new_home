@@ -582,7 +582,7 @@ to{}
 }
 
 .home-1440-px .column-02.bp1-animate-enter19 {
-  animation: bp1-animate-enter19-frames 1.00s ease-in-out 1.00s 1 normal forwards;
+  animation: bp1-animate-enter19-frames 1.00s ease-in-out 2.00s 1 normal forwards;
   opacity: 0;
   transform: translate(0, 200px);
 }
@@ -598,10 +598,11 @@ transform: translate(0,0);
 
 .home-1440-px .overlap-group-4 {
   height: 1567px;
-  left: -104px;
+  left: 0;
   position: relative;
   top: -38px;
   width: 481px;
+  transform: rotate(8deg);
 }
 
 .home-1440-px .bgnadiaplayground {
@@ -646,7 +647,7 @@ transform: translate(0,0);
 }
 
 .home-1440-px .colunm-01.bp1-animate-enter20 {
-  animation: bp1-animate-enter20-frames 1.00s ease-in-out 1.00s 1 normal forwards;
+  animation: bp1-animate-enter20-frames 1.00s ease-in-out 2.00s 1 normal forwards;
   opacity: 0;
   transform: translate(0, -200px);
 }
@@ -662,10 +663,11 @@ transform: translate(0,0);
 
 .home-1440-px .overlap-group1-1 {
   height: 1547px;
-  left: -62px;
+  left: 60px;
   position: relative;
   top: -35px;
   width: 397px;
+  transform: rotate(8deg);
 }
 
 .home-1440-px .bgamanbmtcookhouse {
