@@ -1247,13 +1247,6 @@ transform: translate(0,0);
   position: relative;
 }
 
-/*.home-1440-px .side-characters-2 {
-  left: 0;
-  position: absolute;
-  width: 704px;
-  bottom: 0;
-}*/
-
 .home-1440-px .side-characters-2.bp1-animate-enter41 {
   animation: bp1-animate-enter41-frames 1.00s ease-in-out 1.00s 1 normal forwards;
   opacity: 0;
@@ -1284,48 +1277,6 @@ transform: translate(0,0);
 }
 
 
-/*.home-1440-px .chaaman-container {
-  height: 685px;
-  left: 0;
-  position: absolute;
-  width: 752px;
-  bottom: 0;
-}
-
-.home-1440-px .chaamanpapastern {
-  height: 661px;
-  left: 132px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 300px;
-}
-
-.home-1440-px .chaamansergeant {
-  object-fit: cover;
-  position: absolute;
-  width: 48%;
-  bottom: 0;
-  right: -8%;
-}
-
-.home-1440-px .chaamanjothi2hairflip {
-  height: 659px;
-  left: 281px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 300px;
-}
-
-.home-1440-px .chaamanselinder2normal {
-  height: 661px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 24px;
-  width: 300px;
-}*/
 
 .home-1440-px .cover-2 {
   background-color: var(--pear);
@@ -1537,7 +1488,7 @@ transform: translate(0,0);
 .home-1440-px .zhihao-1 {
   display: block;
   height: 812px;
-  left: 400px;
+  left: 460px;
   mix-blend-mode: screen;
   opacity: 0;
   position: absolute;
@@ -1645,7 +1596,7 @@ transform: translate(0,0);
   box-shadow: 0px 4px 24px #005b6966;
   cursor: pointer;
   height: 64px;
-  left: 524px;
+  left: 640px;
   opacity: 0;
   position: absolute;
   top: 621px;
@@ -1653,6 +1604,7 @@ transform: translate(0,0);
   transition: all 0.2s ease;
   width: 174px;
 }
+
 
 .home-1440-px .button-play-now-5.bp1-animate-enter50 {
   animation: bp1-animate-enter50-frames 0.50s ease-in-out 1.50s 1 normal forwards;
