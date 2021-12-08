@@ -2754,37 +2754,36 @@ transform: scale(1);
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 8265px;
   overflow: hidden;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .overlap-group11 {
-  height: 637px;
+  min-height: 100vh;
   margin-left: -0.16px;
   margin-top: -2px;
   position: relative;
-  width: 375px;
+  width: 100%;
   z-index: 5;
 }
 
 .home-375-px .overlap-group6-1 {
-  height: 636px;
+  min-height: 100vh;
   left: 0;
   position: absolute;
   top: 0;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .bkgrd-aqua-1 {
   background-color: var(--turquoise-pearl);
-  height: 636px;
+  min-height: 100vh;
   left: 0;
   opacity: 0;
   position: absolute;
   top: 0;
   transform: scale(0);
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .bkgrd-aqua-1.bp3-animate-enter19 {
@@ -2833,12 +2832,12 @@ transform: scale(1);
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  height: 636px;
+  min-height: 100vh;
   left: 0;
   overflow: hidden;
   position: absolute;
   top: 1px;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .flex-row {
@@ -3073,7 +3072,7 @@ transform: translate(0,0);
 .home-375-px .overlap-group12 {
   height: 1752px;
   position: relative;
-  width: 376px;
+  width: 100%;
   z-index: 3;
 }
 
@@ -3085,7 +3084,7 @@ transform: translate(0,0);
   overflow: hidden;
   position: absolute;
   top: 1085px;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .overlap-group4-1 {
@@ -3101,16 +3100,16 @@ transform: translate(0,0);
   left: 0;
   position: absolute;
   top: 0;
-  width: 575px;
+  width: 100%;
 }
 
 .home-375-px .bkgrd-2 {
   background-color: var(--purple-heart);
-  height: 667px;
+  min-height: 100vh;
   left: 80px;
   position: absolute;
   top: 0;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .side-characters-4 {
@@ -3307,7 +3306,7 @@ transform: translate(0,0);
   left: 1px;
   position: absolute;
   top: 0;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .text-7 {
@@ -3490,11 +3489,11 @@ transform: scale(1);
   align-items: flex-end;
   background-color: var(--selective-yellow);
   display: flex;
-  height: 667px;
+  min-height: 100vh;
   justify-content: center;
   margin-top: 2px;
   overflow: hidden;
-  width: 375px;
+  width: 100%;
   z-index: 4;
 }
 
@@ -3732,10 +3731,10 @@ transform: translate(0,0);
   align-items: flex-end;
   background-color: var(--pear);
   display: flex;
-  height: 667px;
+  min-height: 100vh;
   margin-top: 1px;
   overflow: hidden;
-  width: 375px;
+  width: 100%;
   z-index: 2;
 }
 
@@ -3933,9 +3932,9 @@ transform: translate(0,0);
   background-color: var(--bunting);
   display: flex;
   flex-direction: column;
-  height: 668px;
+  min-height: 100vh;
   overflow: hidden;
-  width: 375px;
+  width: 100%;
   z-index: 1;
 }
 
@@ -4143,7 +4142,7 @@ transform: scale(1);
 .home-375-px .overlap-group13 {
   height: 3228px;
   position: relative;
-  width: 376px;
+  width: 100%;
   z-index: 6;
 }
 
@@ -4157,7 +4156,7 @@ transform: scale(1);
   padding: 67px 0;
   position: absolute;
   top: 0;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .what-people-say-icon-1 {
@@ -4549,7 +4548,7 @@ transform: translate(0,0);
   height: 428px;
   margin-top: 123px;
   position: relative;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .media-features-1 {
@@ -4690,7 +4689,7 @@ transform: translate(0,0);
   opacity: 0.5;
   position: absolute;
   top: 32px;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .get-in-touch-1 {
@@ -4884,11 +4883,11 @@ transform: translate(0,0);
   display: flex;
   flex-direction: column;
   left: 0;
-  min-height: 743px;
+  min-height: 100vh;
   padding: 53px 27px;
   position: absolute;
   top: 1835px;
-  width: 375px;
+  width: 100%;
 }
 
 .home-375-px .about-the-project-icon {
@@ -4982,7 +4981,7 @@ transform: translate(0,0);
   left: 0;
   position: fixed;
   top: 5248px;
-  width: 375px;
+  width: 100%;
   z-index: 9;
 }
 
@@ -4993,7 +4992,7 @@ transform: translate(0,0);
   flex-direction: column;
   min-height: 388px;
   padding: 30px 19px;
-  width: 375px;
+  width: 100%;
   z-index: 7;
 }
 
@@ -6605,7 +6604,7 @@ transform: translate(0,0);
   height: 474px;
   justify-content: flex-end;
   left: 0;
-  min-width: 768px;
+  min-width: 100%;
   position: absolute;
   top: 2456px;
 }
