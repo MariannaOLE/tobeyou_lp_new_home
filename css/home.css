@@ -1716,7 +1716,6 @@ transform: translate(0,0);
 .home-1440-px .profile {
   align-items: flex-start;
   display: flex;
-  height: 120px;
   justify-content: flex-end;
   margin-left: 4.0px;
   margin-top: 4.0px;
@@ -2807,11 +2806,15 @@ transform: scale(1);
   height: 308px;
   left: 34px;
   opacity: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   position: absolute;
-  top: 248px;
+  bottom: 14%;
   transform: scale(0.9);
   width: 308px;
 }
+
 
 .home-375-px .green-circle-1.bp3-animate-enter20 {
   animation: bp3-animate-enter20-frames 1.00s ease-in-out 1.00s 1 normal forwards;
@@ -2860,6 +2863,13 @@ transform: scale(1);
   opacity: 0;
   transform: scale(0.9);
   width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
 }
 
 .home-375-px .logo-2.bp3-animate-enter21 {
@@ -2879,7 +2889,6 @@ transform: scale(1);
 
 .home-375-px .overlap-group-13 {
   height: 40px;
-  position: relative;
 }
 
 .home-375-px .you-2 {
@@ -2911,7 +2920,7 @@ transform: scale(1);
   flex-direction: column;
   height: 140px;
   margin-left: 4.0px;
-  margin-top: 20px;
+  margin-top: 20%;
   opacity: 0;
   transform: scale(0.9);
   width: 314px;
@@ -2962,10 +2971,10 @@ transform: scale(1);
 
 .home-375-px .overlap-group7 {
   height: 428px;
-  margin-left: -71.89px;
   margin-top: 62px;
-  position: relative;
-  width: 526px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .home-375-px .characters {
@@ -2975,7 +2984,7 @@ transform: scale(1);
   position: absolute;
   top: 0;
   transform: scale(0.9);
-  width: 526px;
+  width: 100%;
 }
 
 .home-375-px .characters.bp3-animate-enter22 {
@@ -2995,48 +3004,54 @@ transform: scale(1);
 
 .home-375-px .overlap-group1-4 {
   height: 429px;
-  left: -1px;
   position: relative;
-  width: 527px;
+  width: 100%;
+  bottom: 0;
 }
 
 .home-375-px .ravi-pose-01-1-1 {
-  height: 420px;
-  left: 306px;
+  width: 40%;
+  margin-bottom: 0;
+  margin-top: 55px;
   position: absolute;
-  top: 0;
-  width: 220px;
+  right: 0;
+  bottom: 0;
 }
 
+
 .home-375-px .aman-1 {
-  left: 52px;
+  left: -8%;
   object-fit: cover;
   position: absolute;
-  top: 7px;
-  width: 402px;
+  bottom: -20px;
+  width: 110%;
+  z-index: -1;
 }
 
 .home-375-px .nadia-1 {
-  height: 382px;
-  left: 0;
+  left: -71px;
   position: absolute;
-  top: 47px;
-  width: 307px;
+  width: 80%;
+  bottom: -46px;
 }
 
 .home-375-px .button-play-now-9 {
   background-color: var(--white);
-  border-radius: 80px;
-  box-shadow: 0px 4px 24px #005b6966;
-  cursor: pointer;
-  height: 64px;
-  left: 172px;
-  opacity: 0;
-  position: absolute;
-  top: 261px;
-  transform: translate(0, 25px);
-  transition: all 0.2s ease;
-  width: 174px;
+    border-radius: 80px;
+    box-shadow: 0px 4px 24px #005b6966;
+    cursor: pointer;
+    height: 64px;
+    left: 172px;
+    opacity: 0;
+    position: absolute;
+    /* top: auto; */
+    transform: translate(0, 25px);
+    transition: all 0.2s ease;
+    width: 174px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .home-375-px .button-play-now-9.bp3-animate-enter24 {
@@ -4447,14 +4462,15 @@ transform: translate(0,0);
   margin-left: 108.0px;
   min-width: 71px;
   transform: rotate(-4.05deg);
+  
 }
 
 .home-375-px .overlap-group-19 {
-  height: 80px;
-  margin-left: -5px;
-  margin-top: -4.55px;
+  height: 82px;
+  margin-left: -4px;
+  margin-top: -5.43px;
   position: relative;
-  width: 80px;
+  width: 78px;
 }
 
 .home-375-px .vanguard-5 {
