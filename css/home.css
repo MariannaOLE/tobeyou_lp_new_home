@@ -2194,8 +2194,8 @@ transform: translate(0,0);
   width: 957px;
   display: flex;
   justify-content: center;
-  margin-left: 120px;
-  margin-top: 70%;
+  margin-left: 10%;
+  margin-top: 65%;
 }
 
 .home-1440-px .media-feature.bp1-animate-enter18 {
@@ -2375,6 +2375,7 @@ transform: translate(0,0);
   position: absolute;
   top: 0;
   width: 950px;
+  
 }
 
 .home-1440-px .media-features {
@@ -2390,7 +2391,6 @@ transform: translate(0,0);
   top: 0;
   transform: translate(0, 25px);
   white-space: nowrap;
-  z-index: 1;
 }
 
 .home-1440-px .media-features.bp1-animate-enter17 {
@@ -5837,39 +5837,35 @@ transform: translate(0,0);
 }
 
 .home-768-px .gavin-2 {
-  height: 568px;
   left: 161px;
   object-fit: cover;
   position: absolute;
   top: 23px;
-  width: 290px;
+  width: 40%;
 }
 
 .home-768-px .azlinhappy-1-2 {
-  height: 591px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 4px;
-  width: 270px;
+  width: 40%;
 }
 
 .home-768-px .rahman-1-2 {
-  height: 531px;
   left: 416px;
   object-fit: cover;
   position: absolute;
   top: 65px;
-  width: 270px;
+  width: 40%;
 }
 
 .home-768-px .chloe-normal-1-2 {
-  height: 591px;
   left: 291px;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 269px;
+  width: 40%;
 }
 
 .home-768-px .gradient-1 {
@@ -5884,13 +5880,12 @@ transform: translate(0,0);
 
 .home-768-px .nadia-profile-2 {
   display: block;
-  height: 549px;
   left: 0;
   opacity: 0;
   position: absolute;
-  top: 154px;
+  bottom: 0;
   transform: translate(-25px, 0);
-  width: 357px;
+  width: 40%;
 }
 
 .home-768-px .nadia-profile-2.bp2-animate-enter14 {
@@ -7050,7 +7045,7 @@ transform: translate(0,0);
   justify-content: flex-end;
   left: 0;
   position: absolute;
-  top: 0;
+  top: 20px;
   width: 500px;
 }
 
@@ -7167,10 +7162,8 @@ transform: translate(0,0);
 .home-768-px .profile-12 {
   align-items: flex-start;
   display: flex;
-  height: 110px;
+  height: 150px;
   justify-content: flex-end;
-  margin-bottom: 44.1px;
-  margin-left: 6.2px;
   min-width: 110px;
   transform: rotate(-2.45deg);
 }
@@ -7207,8 +7200,7 @@ transform: translate(0,0);
   letter-spacing: 0;
   line-height: 25.2px;
   margin-bottom: 3.6px;
-  margin-left: 30.9px;
-  width: 348.78px;
+  margin-left: 40px;
 }
 
 .home-768-px .profile-4-3 {
@@ -7405,7 +7397,19 @@ transform: translate(0,0);
   opacity: 0.5;
   position: absolute;
   top: 0;
-  width: 768px;
+  width: 100%;
+}
+
+
+.home-375-px .colour-cover-1 {
+  background-color: var(--viking);
+  height: 381px;
+  left: 0;
+  mix-blend-mode: darken;
+  opacity: 0.5;
+  position: absolute;
+  top: 32px;
+  width: 100%;
 }
 
 .home-768-px .about-the-progect-1 {
