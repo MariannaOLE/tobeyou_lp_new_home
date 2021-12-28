@@ -105,17 +105,7 @@
   font-weight: 500;
 }
 
-.adapterpedisplay-black-white-240px {
-  color: var(--white);
-  opacity: 0.4;
-  font-family: var(--font-family-adapter_pe_display-black);
-  font-size: 240px;
-  font-style: normal;
-  font-weight: 900;
-  align-items: center;
-  margin-top: 60px;
-  letter-spacing: 0.08em;
-}
+
 
 
 .inter-medium-soap-20px {
