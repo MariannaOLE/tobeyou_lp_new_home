@@ -1914,9 +1914,18 @@ transform: translate(0,0);
 }
 
 
- .home-1440-px .reviews.bp1-animate-enter58 {
+
+
+
+.home-1440-px .profile-1 {
+  display: flex;
+  margin-left: 30%;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.home-1440-px .profile-1.bp1-animate-enter58 {
   animation: bp1-animate-enter58-frames 0.30s ease-in-out 0.8s 1 normal forwards;
-  /*animation-iteration-count: infinite;*/
   opacity: 0;
   transform: translate(0, 200px);
 } 
@@ -1929,16 +1938,6 @@ to{opacity: 1;
 transform: translate(0, 0px);
 }
 } 
-
-
-
-
-.home-1440-px .profile-1 {
-  display: flex;
-  margin-left: 30%;
-  width: 100%;
-  justify-content: flex-end;
-}
 
 .home-1440-px .profile-1-img {
   width: 120px;
@@ -1963,6 +1962,21 @@ transform: translate(0, 0px);
   width: 100%;
   justify-content: flex-end;
 }
+
+.home-1440-px .profile-2.bp1-animate-enter59 {
+  animation: bp1-animate-enter59-frames 0.30s ease-in-out 1.1s 1 normal forwards;
+  opacity: 0;
+  transform: translate(0, 200px);
+} 
+
+@keyframes bp1-animate-enter59-frames {
+  from{opacity: 0;
+transform: translate(0, 200px);
+}
+to{opacity: 1;
+transform: translate(0, 0px);
+}
+} 
 
 .home-1440-px .profile-2-img {
   width: 120px;
@@ -1990,6 +2004,21 @@ transform: translate(0, 0px);
 }
 
 
+.home-1440-px .profile-3.bp1-animate-enter60 {
+  animation: bp1-animate-enter60-frames 0.30s ease-in-out 1.4s 1 normal forwards;
+  opacity: 0;
+  transform: translate(0, 200px);
+} 
+
+@keyframes bp1-animate-enter60-frames {
+  from{opacity: 0;
+transform: translate(0, 200px);
+}
+to{opacity: 1;
+transform: translate(0, 0px);
+}
+} 
+
 .home-1440-px .profile-3-img {
   width: 165;
   height: 165px;
@@ -2013,6 +2042,21 @@ transform: translate(0, 0px);
   width: 100%;
   justify-content: flex-end;
 }
+
+.home-1440-px .profile-4.bp1-animate-enter61 {
+  animation: bp1-animate-enter61-frames 0.30s ease-in-out 1.7s 1 normal forwards;
+  opacity: 0;
+  transform: translate(0, 200px);
+} 
+
+@keyframes bp1-animate-enter61-frames {
+  from{opacity: 0;
+transform: translate(0, 200px);
+}
+to{opacity: 1;
+transform: translate(0, 0px);
+}
+} 
 
 .home-1440-px .profile-4-img {
   width: 120px;
